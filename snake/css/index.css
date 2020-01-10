@@ -1,0 +1,54 @@
+body{
+	margin:0;
+}
+.xy{
+	position: absolute;
+	left: 93px;
+	top:450px;
+}
+/*设置按钮样式*/
+button {
+		position: absolute;
+		font-size: 1.5em;
+		padding: 7px 20px;
+		width: 200px;
+		border-radius: 10px;
+		color: white;
+		text-shadow: -1px -1px 1px rgba(0,0,0,0.8);
+		border: 5px solid transparent;
+		border-bottom-color: rgba(0,0,0,0.35);
+		background: gray;
+		cursor: pointer;
+
+
+	}
+	button:active {
+		border-bottom-width: 0;
+		margin-top: 5px;
+		background: hsla(220, 100%, 60%, 1);
+	}
+/*设置按钮位置*/
+.up{
+	position: absolute;
+	left: 100px;
+}
+.left{
+	position: absolute;
+	top:70px;
+}
+.right{
+	position: absolute;
+	left: 230px;
+	top:70px;
+}
+.down{
+	position: absolute;
+	left: 100px;
+	top:140px;
+}
+/*设置文字位置*/
+.mess{
+	position: absolute;
+	left: 20px;
+	top:400px;
+}
